@@ -1,0 +1,455 @@
+/* ===== #MADIA QUERIES FOR RESPONSIVE DESIGN ===== */
+
+/* ----- DESKTOP VERSION ----- */
+
+@media screen and (max-width: 1365px) {
+
+/* ----- HEADER ----- */
+
+.wrapper__navbar {
+	max-width: 120rem;
+}
+
+.btn-group .btn + .btn {
+    margin-left: .5rem;
+}
+
+.navbar-nav > li > a {
+	font-size: 1.4em;
+}
+
+/* AFFIX.JS */
+
+.affix .wrapper__navbar {
+	max-width: 120rem;
+}
+	
+}
+
+@media screen and (max-width: 1199px) {
+
+/* ----- HEADER ----- */
+
+.navbar {
+	font-size: .9em;
+
+	.navbar-sign_btn {
+		padding: .4rem 1rem;
+	}
+}
+
+.affix-top {
+
+	.btn-group {
+		padding-right: 1.5rem;
+	}
+}
+
+.affix {
+
+	.navbar-nav {
+		width: 75rem;
+		font-size: .9em;
+	}
+}
+
+.wrapper__navbar {
+	max-width: 99rem;
+}
+
+}
+
+/* ----- TABLET VERSION ----- */
+
+@media screen and (max-width: 991px) {
+
+	/* ----- general rules ----- */
+
+	.title__h1 {
+		font-size: 2.8em;
+		max-width: 60rem;
+	}
+
+	.title__h2 {
+		font-size: 3em;
+	}
+
+/* ----- HEADER ----- */
+
+.header {
+	min-height: 34.1rem;
+	background-image: url('../img/header-bg__tablet.png');
+}
+
+.navbar { 
+	padding-top: 1.6rem;
+	margin-bottom: 6rem;
+ }
+
+ .affix .navbar-header {
+ 		margin-top: .5rem;
+ 		display: inline-block;
+ }
+
+ .navbar-header {
+ 	margin-top: 3.4rem;
+ }
+
+.navbar-text { display: none; }
+
+.navbar-sign_user {
+	width:  2.7rem;
+	height: 2.7rem;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	.at2x('../img/user.png', 100%);
+
+	&:hover {
+		opacity: .7;
+	}
+}
+
+.navbar-sign_btn { display: none; }
+
+.navbar-nav {
+	left: 1rem;
+	width: auto;
+	margin-top: 0;
+	position: absolute;
+
+	& li:not(:first-child) {
+		display: none;
+	}
+}
+
+/* ----- SECTION offers ----- */
+
+.row__offers {
+	margin: 0;
+}
+
+.offers-item_discribe {
+	padding: 0;
+}
+
+/* ----- SECTION promo ----- */
+
+.promo-item {
+	padding: 0 1.5rem;
+}
+
+/* ----- SECTION partners ----- */
+
+.partners-item {
+	background-size: contain;
+}
+
+/* ----- FOOTER ----- */
+
+.wrapper__footer {
+	padding-top:    3rem;
+	padding-bottom: 1rem;
+}
+
+.logo__footer {
+	margin-bottom: 2rem;
+}
+
+.footer-contacts {
+	height: 7.4rem;
+}
+
+.vbottom {
+  float: none;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.footer-design {
+  padding-right: 8rem;
+
+  p {
+  	margin-bottom: 0;
+  }
+}
+
+}
+
+/* ----- MOBILE VERSION ----- */
+
+@media screen and (max-width: 767px) {
+
+	/* ----- general rules ----- */
+
+	.title__h2 {
+		font-size: 2.3em;
+	}
+
+	.title__h3 {
+		font-size: 2.3em;
+	}
+
+	.title__h4 {
+		line-height: 1;
+		font-size: 1.8rem;
+		text-align: center;
+	}
+	
+/* ----- HEADER ----- */
+
+.header {
+	min-height: 34.2rem;
+	background-image: url('../img/header-bg__mobile.png');
+}
+
+.navbar.affix {
+	height: 6rem;
+}
+
+ .affix .navbar-header { display: none; }
+
+.navbar-header {
+	margin-top: 2rem; 
+	text-align: center; 
+}
+
+.affix .navbar-nav,
+.affix .navbar-sign {
+	margin: 0;
+	width: auto;
+}
+
+.navbar.affix { padding-top: 1.5rem; }
+
+.navbar-nav {
+	margin: 0; 
+	left: 1.5rem; top: 1.3rem;
+}
+
+.navbar-brand {
+	float: none;
+	display: inline-block;
+}
+
+/* ----- SECTION offers ----- */
+
+
+/* ----- SECTION achievements ----- */
+
+.achievments-img {
+	width:  auto;
+}
+
+.achivment-confirm_txt {
+	font-size: 1.3em;
+	line-height: 1.9rem;
+}
+
+.row__achievments {
+	margin-bottom: 0;
+}
+
+/* ----- SECTION promo ----- */
+
+.promo-item {
+	padding: 0 1.5rem;
+}
+
+/* ----- SECTION slider ----- */
+
+.wrapper__slider {
+	padding: 0;
+}
+
+.slides {
+	text-align: center;
+}
+
+.slider_txt {
+	font-size: 1.2em;
+	padding: 0 3.5rem;
+	line-height: 1.7rem;
+}
+
+.slider_cite {
+	float: none;
+}
+
+/* FLEXSLIDER */
+
+.flex-prev {
+	left: -1.5rem;
+	background-image: url('../img/prev.png');
+}
+
+.flex-next {
+	right: -1.5rem;
+	background-image: url('../img/next.png');
+}
+
+/* ----- SECTION partners ----- */
+
+.partners-item {
+	background-size: 50%;
+}
+
+/* ----- FOOTER ----- */
+
+.footer-nav {
+	margin: 2rem 0;
+}
+
+.row__footer {
+	margin-bottom: 0;
+}
+
+.footer-contacts {
+	height: auto;
+}
+
+.footer-design {
+  margin-left: 0;
+  padding-right: 12rem;
+}
+
+/* PUSHY */
+
+.pushy {
+	width: auto;
+	max-width: 36rem;
+	padding: 2rem 1rem;
+
+	.btn-group {
+		width: auto;
+		padding: 0 4rem;
+		margin-bottom: 0;
+	}
+
+	.navbar-sign {
+		float: none;
+	}
+
+	.menu-btn {
+		z-index: 101;
+		top: 2rem; left: 2rem;
+		background-image: url('../img/menu-btn__mobile.png');
+	}
+
+	.nav-stacked {
+		margin-bottom: 5%;
+	}
+
+	.footer-soc {
+		margin-top: 5%;
+	}
+}
+
+/* MODALS */
+
+.modal.modal-log__in {
+
+	.modal-log_note__reg { display: none; }
+	.modal-log_btn__reg  { display: none; }
+	.form-group__name    { display: none; }
+}
+
+.modal.modal-log__reg {
+
+	.modal-log_note__in     { display: none; }
+	.modal-log_btn__in      { display: none; }
+	.modal-log_link-restore { display: none; }
+}
+
+.modal {
+	background-color: rgba(0, 0, 37, .8);
+
+	.close {
+		left: 2rem;
+		top: 1.5rem;
+		z-index: 15;
+		opacity: .6;
+		width:  2rem;
+		height: 2rem;
+		background-size: 100%;
+	}
+}
+
+.modal-log {
+	color: white;
+
+	.modal-dialog {
+		margin: 0;
+		width: 32rem;
+	}
+}
+
+.modal-log_title {
+	line-height: 1;
+	font-size: 2.8rem;
+}
+
+.modal-log_note {
+	font-size: 1.3em;
+	margin-bottom: 2rem;
+}
+
+.modal-form {
+	width: 100%;
+}
+
+.modal-log_link-restore {
+	float: left;
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+.modal-log_submit {
+	margin-top: 3rem;
+}
+
+.modal-call {
+
+	.modal-dialog {
+		margin: 0;
+		width: 32rem;
+	}
+}
+
+.modal-call_title {
+	font-size: 2.8em;
+}
+
+.modal-call_note {
+	font-size: 1.3em;
+	margin-bottom: 3rem;
+}
+
+.modal-call_submit {
+	margin-top: 2rem;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+.row__footer > div + div {
+	.col__f(4);
+	padding: 0 1.5rem;
+}
+
+.footer-design {
+	padding-right: 1.5rem;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+/* ----- SECTION partners ----- */
+
+.partners-item {
+	background-size: 70%;
+}
+
+}
